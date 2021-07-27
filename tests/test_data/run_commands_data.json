@@ -1,0 +1,66 @@
+[
+    {
+        "input": "create_parking_lot 6",
+        "output": "Created a parking lot with 6 slots"
+    },
+    {
+        "input": "park KA01HH1234 White",
+        "output": "Allocated slot number: 1"
+    },
+    {
+        "input": "park KA01HH9999 White",
+        "output": "Allocated slot number: 2"
+    },
+    {
+        "input": "park KA01BB0001 Black",
+        "output": "Allocated slot number: 3"
+    },
+    {
+        "input": "park KA01HH7777 Red",
+        "output": "Allocated slot number: 4"
+    },
+    {
+        "input": "park KA01HH2701 Blue",
+        "output": "Allocated slot number: 5"
+    },
+    {
+        "input": "park KA01HH3141 Black",
+        "output": "Allocated slot number: 6"
+    },
+    {
+        "input": "leave 4",
+        "output": "Slot number 4 is free"
+    },
+    {
+        "input": "status",
+        "output": "Slot No.\tRegistration No\tColour\n1\tKA01HH1234\tWhite\n2\tKA01HH9999\tWhite\n3\tKA01BB0001\tBlack\n5\tKA01HH2701\tBlue\n6\tKA01HH3141\tBlack"
+    },
+    {
+        "input": "park KA01P333 White",
+        "output": "Allocated slot number: 4"
+    },
+    {
+        "input": "park DL12AA9999 White",
+        "output": "Sorry, parking lot is full"
+    },
+    {
+        "input": "registration_numbers_for_cars_with_colour White",
+        "output": "KA01HH1234, KA01HH9999, KA01P333"
+    },
+    {
+        "input": "slot_numbers_for_cars_with_colour White",
+        "output": "1, 2, 4"
+    },
+    {
+        "input": "slot_number_for_registration_number KA01HH3141",
+        "output": "6"
+    },
+    {
+        "input": "slot_number_for_registration_number MH04AY1111",
+        "output": "Not found"
+    },
+    {
+        "input": "allcoate MH04AY1111",
+        "output": "Invalid command"
+    }
+]

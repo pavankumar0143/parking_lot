@@ -1,0 +1,30 @@
+[
+    {
+        "input": "4",
+        "output": "Slot number 4 is free"
+    },
+    {
+        "input": "5",
+        "output": "Slot number 5 is free"
+    },
+    {
+        "input": "1",
+        "output": "Slot number 1 is free"
+    },
+    {
+        "input": "2",
+        "output": "Slot number 2 is free"
+    },
+    {
+        "input": "3",
+        "output": "Slot number 3 is free"
+    },
+    {
+        "input": "6",
+        "output": "Slot number 6 is free"
+    },
+    {
+        "input": "9",
+        "output": "Slot number 9 is invalid"
+    }
+]

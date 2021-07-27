@@ -1,0 +1,30 @@
+[
+    {
+        "input": "KA01HH1234 White",
+        "output": "Allocated slot number: 1"
+    },
+    {
+        "input": "KA01HH9999 White",
+        "output": "Allocated slot number: 2"
+    },
+    {
+        "input": "KA01BB0001 Black",
+        "output": "Allocated slot number: 3"
+    },
+    {
+        "input": "KA01HH7777 Red",
+        "output": "Allocated slot number: 4"
+    },
+    {
+        "input": "KA01HH2701 Blue",
+        "output": "Allocated slot number: 5"
+    },
+    {
+        "input": "KA01HH3141 Black",
+        "output": "Allocated slot number: 6"
+    },
+    {
+        "input": "KA01HH3145 Black",
+        "output": "Sorry, parking lot is full"
+    }
+]

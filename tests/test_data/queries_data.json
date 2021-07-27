@@ -1,0 +1,30 @@
+[
+    {
+        "input": "registration_no colour White",
+        "output": "KA01HH1234, KA01HH9999"
+    },
+    {
+        "input": "registration_no colour Red",
+        "output": "KA01HH7777"
+    },
+    {
+        "input": "registration_no colour Black",
+        "output": "KA01BB0001, KA01HH3141"
+    },
+    {
+        "input": "slot_number colour White",
+        "output": "1, 2"
+    },
+    {
+        "input": "slot_number colour Black",
+        "output": "3, 6"
+    },
+    {
+        "input": "slot_number registration_no KA01HH3141",
+        "output": "6"
+    },
+    {
+        "input": "slot_number registration_no MH04AY1111",
+        "output": "Not found"
+    }
+]
